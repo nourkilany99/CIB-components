@@ -1,0 +1,10 @@
+Nav{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.title_nav1{
+    color: white;
+    font-size: 20px;
+}

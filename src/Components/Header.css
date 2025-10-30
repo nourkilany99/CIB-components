@@ -6,10 +6,11 @@
 header{
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     background-color: #032D62;
     padding: 2% 10%;
+    gap: 5%;
 }
 
 .div_logo{
