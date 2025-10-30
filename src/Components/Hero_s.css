@@ -1,0 +1,19 @@
+.hero_s{
+    width: 100%;
+    height: 800px;
+}
+
+.cntnt_hero{
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    color: white;
+    margin-top: 25%;
+    margin-left: 12%;
+}
+
+.her_p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 0;
+    font-size: 20px;
+}
