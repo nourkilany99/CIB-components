@@ -4,8 +4,13 @@ import "./Home.css";
 
 
 const Home = () => {
-    return ( 
+    return ( <>
     <Header/>
+    <Header/>
+    <Header/>
+    
+    </>
+    
      );
 }
  
