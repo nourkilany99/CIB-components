@@ -4,6 +4,8 @@ import './Home.css';
 import Hero from '../Components/Hero';
 import Smallmenu from '../common/Smallmenu';
 import '../common/Smallmenu.css';
+import Titlecard from '../common/Titlecard';
+import Subtitle from '../common/Subtitle';
 
 const Home = () => {
   return (
@@ -19,6 +21,12 @@ const Home = () => {
       <Smallmenu title="Sustainable Finance"/>
       <Smallmenu title="Awards"/>
       </div>
+
+      <div className='options_apply'>
+        <Titlecard title="Apply online"/>
+        <Subtitle title=" Apply online now for cards and loans with ease!"/>
+      </div>
+
     </>
   );
 };
