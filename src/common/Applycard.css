@@ -1,0 +1,18 @@
+.apply_des_crd{
+    width: 20%;
+    padding: 5% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #1858A8;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #0518306e;
+    background-color: #aab8c954;
+}
+
+.apply_crd_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 3%;
+}

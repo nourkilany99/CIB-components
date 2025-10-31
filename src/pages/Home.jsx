@@ -6,6 +6,10 @@ import Smallmenu from '../common/Smallmenu';
 import '../common/Smallmenu.css';
 import Titlecard from '../common/Titlecard';
 import Subtitle from '../common/Subtitle';
+import Applycard from '../common/Applycard';
+import icon_round1 from '../img/cib_icon_round.png';
+import icon_round2 from '../img/card_icon_round.png';
+import icon_round3 from '../img/loan_icon_round.png';
 
 const Home = () => {
   return (
@@ -25,6 +29,12 @@ const Home = () => {
       <div className='options_apply'>
         <Titlecard title="Apply online"/>
         <Subtitle title=" Apply online now for cards and loans with ease!"/>
+
+        <div className='apply_card'>
+          <Applycard img={icon_round1} title="Apply for a new card"/>
+          <Applycard img={icon_round2} title="Apply for a card"/>
+          <Applycard img={icon_round3} title="Apply for a loan or overdraft"/>
+        </div>
       </div>
 
     </>
