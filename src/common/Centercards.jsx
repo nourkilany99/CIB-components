@@ -15,7 +15,7 @@ const Centercards = (props) => {
         </div>
 
         <div className='center_readmore_d'>
-            <p className='btn_read_crd'>{props.title3}</p>
+        <p className='btn_read_crd'>{props.title3}</p>
         </div>
 
       </div>

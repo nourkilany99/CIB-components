@@ -37,3 +37,12 @@ background-color: rgba(174, 175, 175, 0.278);
     justify-content: space-around;
 }
 
+.div_news_all{
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
