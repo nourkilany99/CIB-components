@@ -46,3 +46,31 @@ background-color: rgba(174, 175, 175, 0.278);
     flex-direction: column;
     gap: 10px;
 }
+
+.shake_hands_div{
+    width: 80%;
+    padding: 0 10%;
+    background-color: #1858A8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 10%;
+}
+
+.shake_hands_img{
+    width: 100%;
+    background-image: url(../img/shake_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.card_w_shake{
+    width: 30%;
+    padding: 2% 5%;
+    background-color: white;
+    border-top: solid orange 8px;
+    margin: 5% 0 0 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -17,6 +17,7 @@ import center_img3 from '../img/center_img3.png';
 import Button2 from '../common/Button2';
 import Newscard from '../common/Newscard';
 import newsimg from '../img/newsimg.png';
+import Button from '../common/Button';
 
 const Home = () => {
   return (
@@ -68,7 +69,17 @@ const Home = () => {
         <Button2 title='View all news'/>
        </div>
 
-       
+       <div className='shake_hands_div'>
+       <div className='shake_hands_img'>
+
+          <div className='card_w_shake'>
+            <h1>CIB on an international scale</h1>
+            <p>Learn more about CIB's presence outside of Egypt</p>
+            <Button title='Learn more'/>
+
+          </div>
+       </div>
+       </div>
 
     </>
   );
