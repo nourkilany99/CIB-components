@@ -74,3 +74,31 @@ background-color: rgba(174, 175, 175, 0.278);
     margin: 5% 0 0 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.div_all_work_with{
+    width: 90%;
+    padding: 5% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4%;
+    border-bottom: solid 0.2px #3333336c;
+}
+
+.workwith_crd_d{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    
+}
+
+.workwith_crd_d2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}

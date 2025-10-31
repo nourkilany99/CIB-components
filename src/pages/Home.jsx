@@ -18,6 +18,14 @@ import Button2 from '../common/Button2';
 import Newscard from '../common/Newscard';
 import newsimg from '../img/newsimg.png';
 import Button from '../common/Button';
+import Workwith from '../common/Workwith';
+import logo_exchange1 from '../img/logo_exchange1.png';
+import logo_exchange2 from '../img/logo_exchange2.png';
+import logo_exchange3 from '../img/logo_exchange3.png';
+import priv_icon from '../img/priv_icon.png';
+import award_icon from '../img/award_icon.png';
+import trans_icon from '../img/trans_icon.png';
+import Workwithus2 from '../common/Workwithus2';
 
 const Home = () => {
   return (
@@ -79,6 +87,35 @@ const Home = () => {
 
           </div>
        </div>
+       </div>
+
+       <div className='div_all_work_with'>
+        <Titlecard title='Sustainable finance'/>
+        <Subtitle title=' Sustainability is an integral part of the way we work' />
+
+        <div className='workwith_crd_d'>
+        <Workwith title='S&P/EGX ESG Index'  img={logo_exchange1} />
+        <Workwith title='S&P/EGX ESG Index'  img={logo_exchange2} />
+        <Workwith title='S&P/EGX ESG Index'  img={logo_exchange3} />
+        </div>
+
+       <Button2 title='Learn more'/>
+       
+       </div>
+
+
+        <div className='div_all_work_with'>
+        <Titlecard title='Awards'/>
+        <Subtitle title='  CIB s integrity and quality are recognized internationally' />
+
+        <div className='workwith_crd_d2'>
+        <Workwithus2 title='Best Private Bank in Egypt'  title2='Global Finance - 2023' img={priv_icon} />
+        <Workwithus2 title='Best Mergers & Acquisitions Deal in MENA'  title2='EMEA Finance - 2023' img={award_icon} />
+        <Workwithus2 title='Best Bank in Egypt'  title2='Euromoney - 2023' img={trans_icon} />
+        </div>
+
+       <Button2 title='Learn more'/>
+       
        </div>
 
     </>
