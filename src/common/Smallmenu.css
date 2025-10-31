@@ -1,0 +1,18 @@
+.small_menu_d{
+    width: 90%;
+    padding: 2% 5%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 3%;
+    margin-top: 2%;
+    border: solid 0.1px #3333336f;
+    box-shadow: 5px 5px 10px 2px rgba(86, 85, 85, 0.383);
+}
+
+.p_d_small_menu{
+   color: #333333;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+
+}
