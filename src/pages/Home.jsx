@@ -26,6 +26,10 @@ import priv_icon from '../img/priv_icon.png';
 import award_icon from '../img/award_icon.png';
 import trans_icon from '../img/trans_icon.png';
 import Workwithus2 from '../common/Workwithus2';
+import web from '../img/web.png';
+import phone from '../img/phone.png';
+import branch from '../img/branch.png';
+import Applycard2 from '../common/Applycard2';
 
 const Home = () => {
   return (
@@ -104,7 +108,7 @@ const Home = () => {
        </div>
 
 
-        <div className='div_all_work_with'>
+       <div className='div_all_work_with'>
         <Titlecard title='Awards'/>
         <Subtitle title='  CIB s integrity and quality are recognized internationally' />
 
@@ -118,6 +122,17 @@ const Home = () => {
        
        </div>
 
+       <div className='div_all_meeting'>
+        <Titlecard title='We care' />
+        <Subtitle title=' Our dedicated team is committed to meeting your needs'/>
+
+
+        <div className='apply_card'>
+          <Applycard2 img={web} title="Online" title1="Chat with 'Zaki' our digital assistant to guide you through our products and services, or reach out on social media."/>
+          <Applycard2 img={phone} title="On the phone" title1="For support, including emergencies such as cards closure or immediate critical feedback." />
+          <Applycard2 img={branch} title="In branch"  title1="Our trained team of tellers and relationship managers are here to help you get the service you need."/>
+        </div>
+       </div>
     </>
   );
 };

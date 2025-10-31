@@ -102,3 +102,13 @@ background-color: rgba(174, 175, 175, 0.278);
     align-items: center;
     margin: 2% 0;
 }
+
+.div_all_meeting{
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}

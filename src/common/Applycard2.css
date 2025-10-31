@@ -1,0 +1,35 @@
+.d_apply_extra{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    text-align: start;
+    gap: 15px;
+}
+
+.apply_des_crd2{
+    width: 20%;
+    height: 150px;
+    padding: 5% ;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    color: #1858A8;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #0518306e;
+    background-color: #aab8c92d;
+    text-align: end;
+    margin-bottom: 5%;
+}
+
+.apply_crd_p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.apply_crd_p2{
+color: #3333338d;
+}
