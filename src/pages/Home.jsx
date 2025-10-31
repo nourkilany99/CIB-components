@@ -30,6 +30,7 @@ import web from '../img/web.png';
 import phone from '../img/phone.png';
 import branch from '../img/branch.png';
 import Applycard2 from '../common/Applycard2';
+import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
@@ -133,6 +134,8 @@ const Home = () => {
           <Applycard2 img={branch} title="In branch"  title1="Our trained team of tellers and relationship managers are here to help you get the service you need."/>
         </div>
        </div>
+
+       <Footer />
     </>
   );
 };
